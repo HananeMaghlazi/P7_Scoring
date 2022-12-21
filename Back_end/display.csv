@@ -1,0 +1,101 @@
+SK_ID_CURR,CODE_GENDER,NAME_FAMILY_STATUS,DAYS_BIRTH,CNT_CHILDREN,NAME_CONTRACT_TYPE,AMT_INCOME_TOTAL,AMT_CREDIT,AMT_ANNUITY,NAME_INCOME_TYPE,NAME_EDUCATION_TYPE,NAME_FAMILY_STATUS.1,DAYS_EMPLOYED,OCCUPATION_TYPE,ORGANIZATION_TYPE
+100005,M,Married,49.49041095890411,0,Cash loans,99000.0,222768.0,17370.0,Working,Secondary / secondary special,Married,12.243835616438355,Low-skill Laborers,Self-employed
+100013,M,Married,54.8986301369863,0,Cash loans,202500.0,663264.0,69777.0,Working,Higher education,Married,12.213698630136989,Drivers,Transport: type 3
+100028,F,Married,38.29041095890411,2,Cash loans,315000.0,1575000.0,49018.5,Working,Secondary / secondary special,Married,5.112328767123287,Sales staff,Business Entity Type 3
+100038,M,Married,35.726027397260275,1,Cash loans,180000.0,625500.0,32067.0,Working,Secondary / secondary special,Married,6.002739726027397,Laborers,Business Entity Type 3
+100042,F,Married,50.96986301369863,0,Cash loans,270000.0,959688.0,34600.5,State servant,Secondary / secondary special,Married,32.9013698630137,Drivers,Government
+100057,M,Married,45.71232876712329,2,Cash loans,180000.0,499221.0,22117.5,Working,Higher education,Married,7.068493150684931,High skill tech staff,Industry: type 9
+100065,M,Single / not married,26.07123287671233,0,Cash loans,166500.0,180000.0,14220.0,Working,Higher education,Single / not married,3.8,Core staff,Self-employed
+100066,F,Married,34.915068493150685,0,Cash loans,315000.0,364896.0,28957.5,State servant,Higher education,Married,2.7753424657534245,Core staff,School
+100067,F,Civil marriage,28.47945205479452,1,Cash loans,162000.0,45000.0,5337.0,Working,Higher education,Civil marriage,7.191780821917808,Sales staff,Trade: type 2
+100074,F,Married,64.84931506849315,0,Cash loans,67500.0,675000.0,25447.5,Pensioner,Secondary / secondary special,Married,-1000.6657534246576,Laborers,XNA
+100090,F,Widow,42.53150684931507,0,Cash loans,135000.0,261621.0,16848.0,Working,Secondary / secondary special,Widow,9.73972602739726,Laborers,Self-employed
+100091,F,Civil marriage,33.63835616438356,0,Cash loans,247500.0,296280.0,23539.5,Working,Secondary / secondary special,Civil marriage,2.5452054794520547,Laborers,Self-employed
+100092,F,Married,53.93698630136986,0,Cash loans,90000.0,360000.0,18535.5,Working,Secondary / secondary special,Married,9.802739726027395,Core staff,Government
+100106,M,Civil marriage,33.12602739726027,0,Revolving loans,180000.0,157500.0,7875.0,Working,Secondary / secondary special,Civil marriage,5.013698630136986,Laborers,Business Entity Type 3
+100107,M,Civil marriage,37.15890410958904,0,Cash loans,180000.0,296280.0,21690.0,Working,Secondary / secondary special,Civil marriage,2.758904109589041,Laborers,Business Entity Type 3
+100109,F,Single / not married,53.08219178082192,0,Cash loans,202500.0,407520.0,26041.5,Working,Secondary / secondary special,Single / not married,12.983561643835616,Laborers,Services
+100117,M,Married,62.2054794520548,0,Cash loans,90000.0,499221.0,22117.5,Pensioner,Secondary / secondary special,Married,-1000.6657534246576,Laborers,XNA
+100128,F,Civil marriage,30.03287671232877,1,Cash loans,225000.0,431280.0,23526.0,Commercial associate,Higher education,Civil marriage,5.158904109589041,Managers,Bank
+100141,F,Married,49.19178082191781,0,Cash loans,175500.0,478498.5,46741.5,Working,Secondary / secondary special,Married,0.8356164383561644,Laborers,Industry: type 3
+100150,F,Civil marriage,28.78630136986301,0,Cash loans,99000.0,225000.0,19242.0,Commercial associate,Secondary / secondary special,Civil marriage,7.616438356164384,Sales staff,Business Entity Type 3
+100168,F,Widow,61.8,0,Cash loans,157500.0,266652.0,16443.0,Working,Higher education,Widow,36.42191780821918,Laborers,Other
+100169,F,Separated,62.42191780821918,0,Cash loans,135000.0,540000.0,27702.0,Pensioner,Higher education,Separated,-1000.6657534246576,Laborers,XNA
+100170,M,Married,32.73424657534247,1,Cash loans,337500.0,1313212.5,42493.5,Commercial associate,Incomplete higher,Married,3.8767123287671232,Laborers,Business Entity Type 3
+100171,M,Married,36.08767123287672,0,Cash loans,157500.0,539100.0,29245.5,Working,Secondary / secondary special,Married,9.63835616438356,Drivers,Business Entity Type 3
+100172,F,Civil marriage,42.175342465753424,0,Cash loans,76500.0,225000.0,12334.5,Working,Secondary / secondary special,Civil marriage,2.649315068493151,Laborers,Business Entity Type 3
+100184,F,Widow,57.945205479452056,0,Cash loans,112500.0,256032.0,10759.5,Pensioner,Secondary / secondary special,Widow,-1000.6657534246576,Laborers,XNA
+100187,F,Married,57.64383561643836,0,Cash loans,225000.0,501363.0,25726.5,Commercial associate,Higher education,Married,6.758904109589041,Laborers,Self-employed
+100212,F,Married,43.21369863013699,0,Cash loans,90000.0,450000.0,23107.5,Working,Lower secondary,Married,3.589041095890411,Core staff,Self-employed
+100222,F,Married,48.75616438356165,0,Cash loans,360000.0,945000.0,34074.0,Working,Secondary / secondary special,Married,7.63013698630137,Laborers,Self-employed
+100223,F,Married,35.6,0,Cash loans,180000.0,490374.0,35811.0,Commercial associate,Higher education,Married,5.63013698630137,Managers,Trade: type 6
+100232,F,Married,39.57534246575342,1,Cash loans,102150.0,335592.0,21577.5,Working,Higher education,Married,4.7972602739726025,Core staff,School
+100241,F,Married,25.16986301369863,0,Cash loans,67500.0,431280.0,17797.5,Working,Secondary / secondary special,Married,0.7397260273972602,Laborers,Business Entity Type 3
+100245,F,Married,36.61643835616438,0,Cash loans,112500.0,364896.0,20947.5,Working,Incomplete higher,Married,3.827397260273973,Laborers,Industry: type 12
+100253,F,Separated,42.824657534246576,0,Cash loans,171000.0,819792.0,39568.5,Commercial associate,Secondary / secondary special,Separated,8.383561643835616,Accountants,Business Entity Type 3
+100256,M,Single / not married,27.73972602739726,0,Cash loans,121500.0,119925.0,13563.0,Working,Secondary / secondary special,Single / not married,3.180821917808219,Core staff,Trade: type 7
+100271,F,Married,63.394520547945206,0,Cash loans,270000.0,1800000.0,98770.5,Pensioner,Secondary / secondary special,Married,-1000.6657534246576,Laborers,XNA
+100278,F,Married,29.68219178082192,1,Cash loans,121500.0,450000.0,35685.0,Working,Secondary / secondary special,Married,4.895890410958904,Sales staff,Business Entity Type 3
+100280,M,Married,39.293150684931504,2,Cash loans,405000.0,513040.5,61015.5,Commercial associate,Incomplete higher,Married,2.673972602739726,Managers,Business Entity Type 3
+100306,M,Single / not married,23.95342465753425,0,Cash loans,112500.0,360000.0,28570.5,Working,Secondary / secondary special,Single / not married,0.6931506849315069,Sales staff,Business Entity Type 3
+100311,F,Married,48.51780821917808,0,Cash loans,175500.0,247500.0,12766.5,Working,Secondary / secondary special,Married,10.712328767123289,Medicine staff,Government
+100312,M,Married,63.87123287671233,0,Cash loans,67500.0,463500.0,33921.0,Pensioner,Secondary / secondary special,Married,-1000.6657534246576,Laborers,XNA
+100330,F,Married,38.08219178082192,0,Cash loans,211500.0,539100.0,27652.5,Working,Secondary / secondary special,Married,6.279452054794521,Core staff,Postal
+100331,M,Married,48.9972602739726,0,Cash loans,225000.0,792162.0,40576.5,Working,Higher education,Married,7.216438356164383,Drivers,Business Entity Type 3
+100352,M,Married,51.85753424657534,1,Cash loans,180000.0,729792.0,37390.5,State servant,Secondary / secondary special,Married,4.260273972602739,Drivers,Medicine
+100358,F,Married,50.827397260273976,0,Cash loans,202500.0,798777.0,51178.5,Working,Secondary / secondary special,Married,6.6438356164383565,Laborers,Business Entity Type 3
+100367,M,Married,54.35616438356164,0,Cash loans,157500.0,261000.0,26874.0,Working,Secondary / secondary special,Married,10.304109589041095,Laborers,Housing
+100382,M,Married,32.18082191780822,1,Cash loans,180000.0,431280.0,22149.0,Working,Higher education,Married,4.942465753424657,Managers,Business Entity Type 3
+100384,F,Married,32.85205479452055,0,Cash loans,112500.0,360000.0,28570.5,State servant,Higher education,Married,3.56986301369863,Medicine staff,Medicine
+100385,M,Married,34.43013698630137,1,Cash loans,229500.0,544500.0,42268.5,Working,Lower secondary,Married,13.810958904109588,Laborers,Business Entity Type 2
+100386,F,Civil marriage,37.32054794520548,3,Cash loans,202500.0,207396.0,13383.0,Commercial associate,Higher education,Civil marriage,2.7205479452054795,Core staff,Medicine
+100399,M,Married,56.21917808219178,0,Cash loans,360000.0,1024740.0,43546.5,Commercial associate,Higher education,Married,10.394520547945206,Laborers,Other
+100404,F,Married,39.2958904109589,0,Cash loans,270000.0,2013840.0,83110.5,Commercial associate,Higher education,Married,7.347945205479452,Managers,Business Entity Type 3
+100416,F,Married,45.1013698630137,0,Cash loans,157500.0,869049.0,31342.5,Commercial associate,Higher education,Married,7.553424657534246,Sales staff,Self-employed
+100422,M,Married,50.11506849315069,3,Cash loans,180000.0,315000.0,16213.5,Working,Secondary / secondary special,Married,3.295890410958904,Laborers,Construction
+100426,F,Married,40.824657534246576,0,Cash loans,157500.0,1125000.0,65313.0,Working,Secondary / secondary special,Married,17.638356164383563,Core staff,Kindergarten
+100438,F,Married,29.34520547945205,1,Cash loans,144000.0,450000.0,23107.5,Working,Higher education,Married,3.635616438356165,Sales staff,Self-employed
+100444,M,Married,26.660273972602734,1,Cash loans,202500.0,300735.0,16443.0,Pensioner,Secondary / secondary special,Married,-1000.6657534246576,Laborers,XNA
+100445,M,Single / not married,36.131506849315066,0,Cash loans,135000.0,278505.0,15237.0,Working,Secondary / secondary special,Single / not married,0.3452054794520548,Laborers,Other
+100446,M,Single / not married,27.438356164383563,0,Cash loans,157500.0,594121.5,30465.0,State servant,Higher education,Single / not married,3.515068493150685,Core staff,Military
+100447,F,Married,59.057534246575344,0,Cash loans,99000.0,130320.0,9873.0,Pensioner,Higher education,Married,-1000.6657534246576,Laborers,XNA
+100450,F,Married,63.0,0,Cash loans,40500.0,90000.0,7110.0,Pensioner,Secondary / secondary special,Married,-1000.6657534246576,Laborers,XNA
+100466,F,Married,62.97534246575343,0,Cash loans,175500.0,261801.0,18747.0,Working,Secondary / secondary special,Married,5.64931506849315,Managers,School
+100483,F,Married,42.07671232876712,1,Cash loans,202500.0,675000.0,25578.0,Commercial associate,Higher education,Married,8.863013698630137,Core staff,Government
+100484,F,Married,60.2054794520548,0,Cash loans,202500.0,1907010.0,66415.5,Working,Higher education,Married,2.967123287671233,Core staff,Self-employed
+100494,F,Civil marriage,28.7013698630137,0,Cash loans,135000.0,675000.0,36747.0,Working,Higher education,Civil marriage,7.632876712328767,Sales staff,Self-employed
+100510,M,Single / not married,41.28767123287671,0,Cash loans,315000.0,405000.0,21969.0,Working,Secondary / secondary special,Single / not married,3.202739726027397,Drivers,Government
+100512,F,Single / not married,64.87945205479453,0,Cash loans,92250.0,130320.0,13815.0,Pensioner,Secondary / secondary special,Single / not married,-1000.6657534246576,Laborers,XNA
+100517,F,Married,41.821917808219176,0,Cash loans,279000.0,630000.0,32296.5,Commercial associate,Secondary / secondary special,Married,4.616438356164384,Sales staff,Trade: type 7
+100548,F,Single / not married,65.7041095890411,0,Cash loans,87750.0,156384.0,11821.5,Pensioner,Higher education,Single / not married,-1000.6657534246576,Laborers,XNA
+100551,F,Married,56.26575342465753,0,Cash loans,144000.0,981360.0,31788.0,Pensioner,Secondary / secondary special,Married,-1000.6657534246576,Laborers,XNA
+100552,M,Married,31.81095890410959,2,Cash loans,180000.0,269982.0,32170.5,Working,Secondary / secondary special,Married,5.8,Laborers,Industry: type 4
+100553,M,Single / not married,31.791780821917808,0,Cash loans,126000.0,165915.0,10278.0,Commercial associate,Secondary / secondary special,Single / not married,9.73150684931507,Laborers,Business Entity Type 3
+100561,M,Married,32.38082191780822,0,Cash loans,180000.0,67500.0,8140.5,Working,Secondary / secondary special,Married,7.156164383561644,Laborers,Business Entity Type 3
+100568,M,Married,27.446575342465756,0,Cash loans,112500.0,312768.0,24709.5,Working,Secondary / secondary special,Married,1.2712328767123289,Sales staff,Trade: type 3
+100569,F,Married,41.78904109589041,1,Cash loans,225000.0,400392.0,42174.0,Commercial associate,Higher education,Married,16.947945205479453,Core staff,Legal Services
+100591,M,Married,45.64109589041096,0,Cash loans,180000.0,328405.5,26077.5,Commercial associate,Secondary / secondary special,Married,0.6657534246575343,Security staff,Security
+100592,F,Widow,57.88493150684931,0,Cash loans,180000.0,831730.5,30006.0,Pensioner,Secondary / secondary special,Widow,-1000.6657534246576,Laborers,XNA
+100602,F,Single / not married,28.246575342465757,0,Cash loans,99000.0,450000.0,23008.5,Working,Secondary / secondary special,Single / not married,2.652054794520548,Medicine staff,Medicine
+100607,M,Married,46.81643835616438,0,Cash loans,135000.0,450000.0,23107.5,Commercial associate,Secondary / secondary special,Married,4.7315068493150685,Laborers,Construction
+100613,M,Married,61.86301369863013,0,Cash loans,45000.0,526491.0,24525.0,Pensioner,Lower secondary,Married,-1000.6657534246576,Laborers,XNA
+100617,F,Married,33.24109589041096,2,Cash loans,202500.0,481176.0,24696.0,Commercial associate,Higher education,Married,0.7972602739726027,Core staff,Kindergarten
+100618,F,Married,41.97808219178082,0,Cash loans,202500.0,781920.0,39924.0,Working,Secondary / secondary special,Married,1.463013698630137,Laborers,Industry: type 3
+100622,M,Single / not married,28.684931506849317,0,Cash loans,67500.0,111384.0,9058.5,Working,Secondary / secondary special,Single / not married,8.394520547945206,Laborers,Self-employed
+100625,F,Married,33.16164383561644,1,Cash loans,112500.0,735579.0,32400.0,Working,Secondary / secondary special,Married,11.93972602739726,Private service staff,Self-employed
+100677,F,Married,40.56438356164384,1,Cash loans,252000.0,402214.5,22459.5,Commercial associate,Secondary / secondary special,Married,1.6986301369863013,Core staff,Business Entity Type 3
+100699,M,Married,36.83287671232877,1,Cash loans,225000.0,323460.0,23134.5,Working,Higher education,Married,4.545205479452055,Laborers,Other
+100702,M,Civil marriage,24.216438356164385,0,Cash loans,175500.0,315000.0,25015.5,Commercial associate,Secondary / secondary special,Civil marriage,0.4054794520547945,Sales staff,Business Entity Type 3
+100711,F,Married,44.12876712328767,0,Cash loans,180000.0,1525482.0,63085.5,Working,Higher education,Married,24.84931506849315,High skill tech staff,Business Entity Type 2
+100729,M,Married,43.76438356164383,1,Cash loans,112500.0,180000.0,14220.0,Working,Secondary / secondary special,Married,1.2931506849315069,High skill tech staff,Industry: type 3
+100740,F,Married,28.22465753424657,1,Cash loans,67500.0,296280.0,21559.5,Working,Secondary / secondary special,Married,1.6849315068493151,Laborers,Industry: type 11
+100744,F,Married,28.56438356164384,2,Cash loans,144000.0,225000.0,17905.5,Working,Secondary / secondary special,Married,1.8246575342465756,Sales staff,Self-employed
+100745,F,Married,30.136986301369863,0,Cash loans,135000.0,900000.0,29034.0,Working,Secondary / secondary special,Married,6.208219178082191,Medicine staff,Medicine
+100747,M,Civil marriage,24.22465753424657,0,Cash loans,495000.0,691551.0,54769.5,Commercial associate,Incomplete higher,Civil marriage,2.2986301369863016,Drivers,Business Entity Type 3
+100751,F,Married,39.64109589041096,1,Cash loans,67500.0,450000.0,14517.0,Working,Secondary / secondary special,Married,13.558904109589042,Medicine staff,Other
+100752,M,Married,56.88219178082192,0,Cash loans,135000.0,675000.0,27229.5,State servant,Secondary / secondary special,Married,10.849315068493151,Laborers,University
+100753,F,Civil marriage,31.44383561643836,0,Cash loans,180000.0,156384.0,18688.5,Working,Secondary / secondary special,Civil marriage,5.717808219178083,Sales staff,Self-employed
+100754,M,Married,53.24383561643835,0,Cash loans,135000.0,364500.0,13221.0,Working,Secondary / secondary special,Married,1.515068493150685,Drivers,Self-employed
+100760,M,Married,53.33424657534247,0,Cash loans,90000.0,224149.5,22297.5,Working,Secondary / secondary special,Married,8.915068493150685,Laborers,Construction
+100762,F,Married,47.6054794520548,0,Cash loans,180000.0,225000.0,20637.0,Working,Secondary / secondary special,Married,8.01095890410959,Sales staff,Government
+100763,F,Civil marriage,30.28219178082192,0,Cash loans,157500.0,571486.5,24340.5,Commercial associate,Incomplete higher,Civil marriage,3.758904109589041,Laborers,Business Entity Type 3
