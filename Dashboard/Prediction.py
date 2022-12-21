@@ -32,7 +32,7 @@ col1, col2 = st.columns([1, 1])
 
 
 with col1:
-	logo = Image.open("loan.png") 
+	logo = Image.open("./loan.png") 
 	st.image(logo)
 	#st.image("loan.png")
 
@@ -56,7 +56,9 @@ Identifiant = st.sidebar.selectbox("Selectionner un identifiant client: ", data)
 ######################
 
 st.sidebar.title("Loan Applicant Info")
-st.sidebar.image("ab.png", width=200)
+im = Image.open("./ab.png") 
+
+st.sidebar.image(im, width=200)
 
 
 # Test radio
@@ -136,14 +138,14 @@ def load_shap():
 # shap explainer
 @st.cache
 def load_explainer():
-	with open('/Users/hananemaghlazi/Projet7/Dashboard/explainer_w.pkl', 'rb') as f:
+	with open('./explainer_w.pkl', 'rb') as f:
 		explainer = dill.load(f)
 		
 	return explainer
 
 explainer=load_explainer()
 
-X_test_sample = pd.read_csv('/Users/hananemaghlazi/Projet7/Dashboard/X_test_sample.csv',index_col="SK_ID_CURR")
+X_test_sample = pd.read_csv('./X_test_sample.csv',index_col="SK_ID_CURR")
 
 #predict button and shap individuel
 
@@ -169,7 +171,7 @@ if btn_predict:
 	st.pyplot(fig)
 
 # Graphiques
-sample = pd.read_csv('/Users/hananemaghlazi/Projet7/Dashboard/sample.csv')
+sample = pd.read_csv('./sample.csv')
 
 def plot_var(data, var, title) : 
 	ax, fig = plt.subplots(figsize=(20,8)) 
@@ -185,7 +187,7 @@ def plot_var(data, var, title) :
 check =st.sidebar.checkbox("Visualisation des variables")
 check_clt =st.sidebar.checkbox("Comparaison avec d'autres clients ")
 
-df_display=pd.read_csv('/Users/hananemaghlazi/Projet7/env/display.csv',index_col="SK_ID_CURR")
+df_display=pd.read_csv('./display.csv',index_col="SK_ID_CURR")
 if check:
 	st.write("#### Select column to visualize: ")
 	df_display=df_display.iloc[:,0:10]
