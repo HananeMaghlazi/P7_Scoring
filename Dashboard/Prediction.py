@@ -32,7 +32,7 @@ col1, col2 = st.columns([1, 1])
 
 
 with col1:
-	logo = Image.open("Dashboard/loan.png") 
+	logo = Image.open("loan.png") 
 	st.image(logo)
 	#st.image("loan.png")
 
