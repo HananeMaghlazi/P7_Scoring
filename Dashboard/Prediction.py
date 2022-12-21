@@ -30,14 +30,9 @@ st.subheader("Cette application d'apprentissage automatique vous aidera à faire
 # split the main page into two columns (col1 and col2)
 col1, col2 = st.columns([1, 1])
 
-@st.cache()
-def load_logo():
 
-	logo = Image.open("loan.png") 
-	
-	return logo
 with col1:
-	logo = load_logo()
+	logo = Image.open("Dashboard/loan.png") 
 	st.image(logo)
 	#st.image("loan.png")
 
