@@ -4,3 +4,5 @@ seaborn==0.12.1
 shap==0.41.0
 numba==0.56.4
 numpy==1.23.5
+imbalanced-learn==0.9.1
+imblearn==0.0
