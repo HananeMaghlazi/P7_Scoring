@@ -30,8 +30,18 @@ st.subheader("Cette application d'apprentissage automatique vous aidera à faire
 # split the main page into two columns (col1 and col2)
 col1, col2 = st.columns([1, 1])
 
+@st.cache()
+def load_logo():
+    # Construction de la sidebar
+    # Chargement du logo
+    logo = Image.open("logo.png") 
+    
+    return logo
 with col1:
-	st.image("loan.png")
+
+	logo = load_logo()
+    st.sidebar.image(logo)
+	#st.image("loan.png")
 
 with col2: 
 	st.write("""Pour emprunter de l'argent, une analyse de crédit est effectuée. L'analyse de crédit implique la mesure d'enquêter sur la probabilité que le demandeur rembourse le prêt à temps et de prédire son défaut/non-remboursement.
