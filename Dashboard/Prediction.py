@@ -141,7 +141,7 @@ def load_shap():
 	
 
 # shap explainer
-path_explainer = os.getcwd() + 'explainer_w.pkl'
+path_explainer = os.getcwd() + '/Dashboard/explainer_w.pkl'
 @st.cache
 def load_explainer():
 	
