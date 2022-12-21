@@ -7,3 +7,4 @@ numpy==1.23.5
 imbalanced-learn==0.9.1
 imblearn==0.0
 catboost==1.1.1
+scikit-learn==1.0.2
