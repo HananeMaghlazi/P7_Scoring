@@ -150,7 +150,7 @@ def load_explainer():
 		
 	return explainer
 		
-	return explainer
+
 
 explainer=load_explainer()
 
