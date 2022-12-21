@@ -10,6 +10,7 @@ import json
 from pandas import DataFrame
 import shap
 from PIL import Image
+from io import BytesIO
 
 # Configuration de la page
 
@@ -32,7 +33,9 @@ col1, col2 = st.columns([1, 1])
 
 
 with col1:
-	logo = Image.open("https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/loan.png")
+	response = requests.get('https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/loan.png')
+	logo = Image.open(BytesIO(response.content))
+	#logo = Image.open("./loan.png")
 	st.image(logo)
 	#st.image("loan.png")
 
