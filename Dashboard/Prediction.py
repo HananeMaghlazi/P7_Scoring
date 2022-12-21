@@ -32,7 +32,7 @@ col1, col2 = st.columns([1, 1])
 
 
 with col1:
-	logo = Image.open("./loan.png")
+	logo = Image.open("https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/loan.png")
 	st.image(logo)
 	#st.image("loan.png")
 
