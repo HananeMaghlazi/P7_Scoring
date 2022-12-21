@@ -36,7 +36,7 @@ with col1:
 	#response = requests.get('https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/loan.png')
 	#logo = Image.open(BytesIO(response.content))
 	#logo = Image.open("./loan.png")
-	path_logo = os.getcwd() + '/Dashboard/loan.png'
+	path_logo = '/Dashboard/loan.png'
 	st.image(path_logo)
 	
 
