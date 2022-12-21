@@ -15,7 +15,7 @@ import shap
 
 st.set_page_config(
 	page_title="Loan Prediction App",
-	page_icon="/Users/hananemaghlazi/Projet7/Dashboard/loan.png"
+	page_icon="./loan.png"
 )
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -31,7 +31,7 @@ st.subheader("Cette application d'apprentissage automatique vous aidera à faire
 col1, col2 = st.columns([1, 1])
 
 with col1:
-	st.image("/Users/hananemaghlazi/Projet7/Dashboard/loan.png")
+	st.image("./loan.png")
 
 with col2: 
 	st.write("""Pour emprunter de l'argent, une analyse de crédit est effectuée. L'analyse de crédit implique la mesure d'enquêter sur la probabilité que le demandeur rembourse le prêt à temps et de prédire son défaut/non-remboursement.
@@ -53,7 +53,7 @@ Identifiant = st.sidebar.selectbox("Selectionner un identifiant client: ", data)
 ######################
 
 st.sidebar.title("Loan Applicant Info")
-st.sidebar.image("/Users/hananemaghlazi/Projet7/Dashboard/ab.png", width=200)
+st.sidebar.image("./ab.png", width=200)
 
 
 # Test radio
