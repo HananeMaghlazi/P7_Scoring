@@ -11,7 +11,7 @@ from pandas import DataFrame
 import shap
 from PIL import Image
 from io import BytesIO
-
+import os
 # Configuration de la page
 
 st.set_page_config(
