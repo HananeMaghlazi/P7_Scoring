@@ -10,7 +10,7 @@ import json
 from pandas import DataFrame
 import shap
 from PIL import Image
-from io import BytesIO
+import os
 
 # Configuration de la page
 
@@ -61,7 +61,7 @@ Identifiant = st.sidebar.selectbox("Selectionner un identifiant client: ", data)
 response = requests.get('https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/ab.png')
 im = Image.open(BytesIO(response.content))
 st.sidebar.title("Loan Applicant Info")
-#im = Image.open("./ab.png") 
+
 
 st.sidebar.image(im, width=200)
 
@@ -141,11 +141,11 @@ def load_shap():
 	
 
 # shap explainer
+path_explainer = os.getcwd() + '/explainer_w.pkl'
 @st.cache
 def load_explainer():
-	# response = requests.get('https://github.com/HananeMaghlazi/P7_Scoring/raw/main/Dashboard/explainer_w.pkl')
-	# with open(BytesIO(response.content), 'rb') as f:
-	with open('explainer_w.pkl', 'rb') as f:
+	
+	with open(path_explainer, 'rb') as f:
 		explainer = dill.load(f)
 		
 	return explainer
