@@ -58,8 +58,10 @@ Identifiant = st.sidebar.selectbox("Selectionner un identifiant client: ", data)
 #sidebar layout
 ######################
 
+response = requests.get('https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/ab.png')
+im = Image.open(BytesIO(response.content))
 st.sidebar.title("Loan Applicant Info")
-im = Image.open("./ab.png") 
+#im = Image.open("./ab.png") 
 
 st.sidebar.image(im, width=200)
 
