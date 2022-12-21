@@ -33,7 +33,7 @@ col1, col2 = st.columns([1, 1])
 @st.cache()
 def load_logo():
 
-	logo = Image.open("logo.png") 
+	logo = Image.open("loan.png") 
 	
 	return logo
 with col1:
