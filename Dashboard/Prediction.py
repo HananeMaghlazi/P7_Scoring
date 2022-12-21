@@ -143,7 +143,9 @@ def load_shap():
 # shap explainer
 @st.cache
 def load_explainer():
-	with open('./explainer_w.pkl', 'rb') as f:
+	# response = requests.get('https://github.com/HananeMaghlazi/P7_Scoring/raw/main/Dashboard/explainer_w.pkl')
+	# with open(BytesIO(response.content), 'rb') as f:
+	with open('explainer_w.pkl', 'rb') as f:
 		explainer = dill.load(f)
 		
 	return explainer
