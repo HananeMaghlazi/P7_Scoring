@@ -38,7 +38,7 @@ with col1:
 	#logo = Image.open("./loan.png")
 	path_logo = os.getcwd() + '/Dashboard/loan.png'
 	st.image(path_logo)
-	#st.image("loan.png")
+	
 
 with col2: 
 	st.write("""Pour emprunter de l'argent, une analyse de crédit est effectuée. L'analyse de crédit implique la mesure d'enquêter sur la probabilité que le demandeur rembourse le prêt à temps et de prédire son défaut/non-remboursement.
@@ -59,12 +59,13 @@ Identifiant = st.sidebar.selectbox("Selectionner un identifiant client: ", data)
 #sidebar layout
 ######################
 
-response = requests.get('https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/ab.png')
-im = Image.open(BytesIO(response.content))
+#response = requests.get('https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/ab.png')
+#im = Image.open(BytesIO(response.content))
 st.sidebar.title("Loan Applicant Info")
-#im = Image.open("./ab.png") 
+path_image = os.getcwd() + '/Dashboard/ab.png'
+#st.image(path_image) 
 
-st.sidebar.image(im, width=200)
+st.sidebar.image(path_image, width=200)
 
 
 # Test radio
