@@ -32,15 +32,13 @@ col1, col2 = st.columns([1, 1])
 
 @st.cache()
 def load_logo():
-    # Construction de la sidebar
-    # Chargement du logo
-    logo = Image.open("logo.png") 
-    
-    return logo
-with col1:
 
+	logo = Image.open("logo.png") 
+	
+	return logo
+with col1:
 	logo = load_logo()
-    st.sidebar.image(logo)
+	st.image(logo)
 	#st.image("loan.png")
 
 with col2: 
