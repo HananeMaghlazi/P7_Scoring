@@ -9,7 +9,7 @@ import requests
 import json
 from pandas import DataFrame
 import shap
-
+from PIL import Image
 
 # Configuration de la page
 
