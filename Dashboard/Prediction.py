@@ -141,20 +141,19 @@ def load_shap():
 	
 
 # shap explainer
-#path_explainer = os.getcwd() + '/explainer_w.pkl'
-#@st.cache
-#def load_explainer():
+path_explainer = os.getcwd() + 'explainer_w.pkl'
+@st.cache
+def load_explainer():
 	
-	#with open(path_explainer, 'rb') as f:
-		#explainer = dill.load(f)
+	with open(path_explainer, 'rb') as f:
+		explainer = dill.load(f)
 		
-	#return explainer
+	return explainer
 		
-#explainer=load_explainer()
+explainer=load_explainer()
 
-path_file = os.getcwd() + '/X_test_sample.csv'
 
-X_test_sample = pd.read_csv(path_file,index_col="SK_ID_CURR")
+X_test_sample = pd.read_csv('./X_test_sample.csv',index_col="SK_ID_CURR")
 
 #predict button and shap individuel
 
