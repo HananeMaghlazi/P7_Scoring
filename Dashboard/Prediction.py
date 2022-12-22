@@ -13,7 +13,7 @@ from PIL import Image
 from io import BytesIO
 import os
 #from functions import function_cost
-from functions import *
+import Back_end.functions
 
 # Configuration de la page
 
