@@ -12,8 +12,8 @@ import shap
 from PIL import Image
 from io import BytesIO
 import os
-from functions import function_cost
-
+#from functions import function_cost
+from functions import *
 
 # Configuration de la page
 
