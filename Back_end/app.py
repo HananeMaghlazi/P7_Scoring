@@ -7,7 +7,7 @@ import pickle
 import pandas as pd
 import numpy as np
 from catboost import CatBoostClassifier
-from Back_end  import function_cost
+from functions import function_cost
 from pandas import DataFrame
 import shap
 import dill
