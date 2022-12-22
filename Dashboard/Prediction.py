@@ -12,6 +12,7 @@ import shap
 from PIL import Image
 from io import BytesIO
 import os
+from functions import function_cost
 # Configuration de la page
 
 st.set_page_config(
