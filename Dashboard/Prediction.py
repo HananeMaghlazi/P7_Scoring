@@ -143,16 +143,16 @@ def load_shap():
 	
 
 # shap explainer
-path_explainer = os.getcwd() + '/Dashboard/explainer_w.pkl'
-@st.cache
-def load_explainer():
+# path_explainer = os.getcwd() + '/Dashboard/explainer_w.pkl'
+# @st.cache
+# def load_explainer():
 	
-	with open(path_explainer, 'rb') as f:
-		explainer = dill.load(f)
+# 	with open(path_explainer, 'rb') as f:
+# 		explainer = dill.load(f)
 		
-	return explainer
+# 	return explainer
 		
-explainer=load_explainer()
+# explainer=load_explainer()
 
 path_file = os.getcwd() + '/Dashboard/X_test_sample.csv'
 X_test_sample = pd.read_csv(path_file,index_col="SK_ID_CURR")
@@ -176,7 +176,7 @@ if btn_predict:
 	
 	fig, ax = plt.subplots(nrows=1, ncols=1)   
 	
-	shap.plots._waterfall.waterfall_legacy(explainer.expected_value, shap_values_df.iloc[0,:788],feature_names = X_test_sample.columns,max_display=10) 
+	#shap.plots._waterfall.waterfall_legacy(explainer.expected_value, shap_values_df.iloc[0,:788],feature_names = X_test_sample.columns,max_display=10) 
 
 	st.pyplot(fig)
 
