@@ -13,7 +13,7 @@ from PIL import Image
 from io import BytesIO
 import os
 from functions import function_cost
-#from Back_end  import function_cost
+
 
 # Configuration de la page
 
@@ -36,9 +36,7 @@ col1, col2 = st.columns([1, 1])
 
 
 with col1:
-	#response = requests.get('https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/loan.png')
-	#logo = Image.open(BytesIO(response.content))
-	#logo = Image.open("./loan.png")
+	
 	path_logo = os.getcwd() + '/Dashboard/loan.png'
 	st.image(path_logo)
 	
@@ -62,12 +60,9 @@ Identifiant = st.sidebar.selectbox("Selectionner un identifiant client: ", data)
 #sidebar layout
 ######################
 
-#response = requests.get('https://raw.githubusercontent.com/HananeMaghlazi/P7_Scoring/main/Dashboard/ab.png')
-#im = Image.open(BytesIO(response.content))
+
 st.sidebar.title("Loan Applicant Info")
 path_image = os.getcwd() + '/Dashboard/ab.png'
-#st.image(path_image) 
-
 st.sidebar.image(path_image, width=200)
 
 
@@ -151,7 +146,7 @@ path_explainer = os.getcwd() + '/Dashboard/explainer_2.pkl'
 def load_explainer():
 
 	with open(path_explainer, 'rb')as file:
-		#explainer = dill.load(f)
+		
 		explainer=pickle.load(file)
 	return explainer
 
