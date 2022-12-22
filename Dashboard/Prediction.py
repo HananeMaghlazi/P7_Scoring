@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import dill
-from dill import dumps, loads
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -144,13 +143,13 @@ def load_shap():
 	
 
 # shap explainer
-path_explainer = os.getcwd() + '/Dashboard/explainer_w.pkl'
+path_explainer = os.getcwd() + '/Dashboard/explainer_2.pkl'
 @st.cache
 def load_explainer():
 
-	with open(path_explainer, 'rb') as f:
-		explainer = dill.load(f)
-		
+	with open(path_explainer, 'rb'):
+		#explainer = dill.load(f)
+		explainer=pickle.load(file)
 	return explainer
 
 explainer=load_explainer()
