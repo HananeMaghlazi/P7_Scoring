@@ -147,7 +147,7 @@ path_explainer = os.getcwd() + '/Dashboard/explainer_2.pkl'
 @st.cache
 def load_explainer():
 
-	with open(path_explainer, 'rb'):
+	with open(path_explainer, 'rb')as file::
 		#explainer = dill.load(f)
 		explainer=pickle.load(file)
 	return explainer
