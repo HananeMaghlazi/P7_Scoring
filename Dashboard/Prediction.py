@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import dill
 from dill import dumps, loads
 import pandas as pd
 import numpy as np
