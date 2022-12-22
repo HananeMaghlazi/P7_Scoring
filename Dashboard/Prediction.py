@@ -146,11 +146,12 @@ def load_shap():
 path_explainer = os.getcwd() + '/Dashboard/explainer_w.pkl'
 @st.cache
 def load_explainer():
+
 	with open(path_explainer, 'rb') as f:
-	explainer = dill.load(f)
+		explainer = dill.load(f)
 		
 	return explainer
-		
+
 explainer=load_explainer()
 
 path_file = os.getcwd() + '/Dashboard/X_test_sample.csv'
