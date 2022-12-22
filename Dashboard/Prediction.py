@@ -198,7 +198,7 @@ def plot_var(data, var, title) :
 check =st.sidebar.checkbox("Visualisation des variables")
 check_clt =st.sidebar.checkbox("Comparaison avec d'autres clients ")
 
-path_file_display = os.getcwd() + '../Back_end/display.csv'
+path_file_display = os.getcwd() + '/Dashboard/../Back_end/display.csv'
 
 df_display=pd.read_csv(path_file_display,index_col="SK_ID_CURR")
 if check:
