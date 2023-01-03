@@ -50,7 +50,7 @@ Le dashbord a été réalisé en deux parties:
 Front-End : Streamlit
 Back-End : Flask
 
-## Dépploiement dans le cloud:
+## Déploiement dans le cloud:
 
 Front-End : Streamlit cloud
 Back-End : AWS
