@@ -1,5 +1,6 @@
 # P7_Scoring :  Implémentez un modèle de scoring
 
+#### Enoncé : 
 
 L’entreprise souhaite mettre en
 œuvre un outil de “scoring crédit”
@@ -18,44 +19,72 @@ chargés de relation client puissent à la fois expliquer de façon la plus tran
 possible les décisions d’octroi de crédit, mais également permettre à leurs clients de
 disposer de leurs informations personnelles et de les explorer facilement.
 
-Le dashboard permet de :
-Visualiser le score et l’interprétation de ce score pour chaque client de
-façon intelligible pour une personne non experte en data science.
-Visualiser des informations descriptives relatives à un client (via un
-système de filtre).
-Comparer les informations descriptives relatives à un client à
-l’ensemble des clients ou à un groupe de clients similaires.
+#### Mission:
 
-Le projet a été réalisé en local sur google colab, Python 3.8 et les packages necessaires ( NumPy, Pandas, MatPlotLib, Seaborn, Scikit-Learn, catboostclassifier,shap).
+• Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d'un client de façon automatique.
+• Construire un Dashboard interactif à destination des gestionnaires de la relation client permettant d'interpréter les prédictions faites par le modèle, et d’améliorer la connaissance client des chargés de relation client.
+• Mettre en production le modèle de scoring de prédiction à l’aide d’une API, ainsi que le Dashboard interactif qui appelle l’API pour les prédictions
 
-- La réalisation de ce projet a été faite en 3 étapes : analyse de données,modélisation et la réalisation du dashboard.
-- Le projet a été réalisé en local et puis déployé dans le cloud.
-## Préparation des  données : 
+#### Préparation des  données : 
 
 Le feature engineering a été faite avec le kernel fourni de kaggle : 
 https://www.kaggle.com/code/jsaguiar/lightgbm-with-simple-features/script
 
-## Modélisation des  données :
+#### Livrables :
 
-Pour ce projet plusieurs algorithmes ont été testés : Regression logistique,RandomForest,GradientBoosting,Xgboost et Catboostclassifier.
+- L’application de dashboard interactif répondant aux spécifications ci-dessus et l’API de prédiction du score, déployées chacunes sur le cloud.
+- Un dossier, géré via un outil de versioning de code contenant :
+- Le notebook ou code de la modélisation (du prétraitement à la prédiction), intégrant via MLFlow le tracking d’expérimentations et le stockage centralisé des modèles
+- Le code générant le dashboard
+- Le code permettant de déployer le modèle sous forme d'API
+- Pour les applications dashboard et API, un fichier introductif permettant de comprendre l'objectif du projet et le découpage des dossiers, et un fichier listant les packages utilisés seront présents dans les dossiers
+- Une note méthodologique décrivant :
 
-Le Catboostclassifier a donné les meilleures performances et sera donc le modèle retenu.
-L’entreprise Prêt à dépenser est une société financière qui propose des crédits et donc essayera de lutter contre les défauts de paiement et diminuer les pertes financières.Pour ceci nous créons une fonction coût métier implémenté par une matrice de confusion, mais au lieu de mettre les quantités prévues, nous allons mettre des pondérations pour chaque élément de la matrice.
+  La méthodologie d'entraînement du modèle (2 pages maximum)
+  
+  Le traitement du déséquilibre des classes (1 page maximum)
+  
+  La fonction coût métier, l'algorithme d'optimisation et la métrique d'évaluation (1 page maximum)
+  
+  Un tableau de synthèse des résultats (1 page maximum)
+  
+  L’interprétabilité globale et locale du modèle (1 page maximum)
+  
+  Les limites et les améliorations possibles (1 page maximum)
+  
+- Un support de présentation
 
+#### Compétences évaluées : 
 
-## Réalisation du dashboard :
+Réaliser un dashboard pour présenter son travail de modélisation
+
+Évaluer les performances des modèles d’apprentissage supervisé selon différents critères
+
+Utiliser un logiciel de version de code pour assurer l’intégration du modèle
+
+Définir et mettre en œuvre un pipeline d’entraînement des modèles
+
+Définir la stratégie d’élaboration d’un modèle d’apprentissage supervisé
+
+Déployer un modèle via une API dans le Web
+
+Définir et mettre en œuvre une stratégie de suivi de la performance d’un modèle
+
+Rédiger une note méthodologique afin de communiquer sa démarche de modélisation
+
+#### Réalisation du dashboard :
 
 Le dashbord a été réalisé en deux parties:
 
-Front-End : Streamlit
-Back-End : Flask
+- Front-End : Streamlit
+- Back-End : Flask
 
-## Déploiement dans le cloud:
+#### Déploiement dans le cloud:
 
-Front-End : Streamlit cloud
-Back-End : AWS
+- Front-End : Streamlit cloud
+- Back-End : AWS
 
-### Lien du dashboard interactif : 
+#### Lien du dashboard interactif : 
 
 https://hananemaghlazi-p7-scoring-dashboardprediction-juf752.streamlit.app/
 
