@@ -82,7 +82,7 @@ Le dashbord a été réalisé en deux parties:
 #### Déploiement dans le cloud:
 
 - Front-End : Streamlit cloud
-- Back-End : AWS
+- Back-End : AWS (EC2)
 
 #### Lien du dashboard interactif : 
 
