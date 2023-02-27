@@ -1,4 +1,6 @@
 # P7_Scoring :  Implémentez un modèle de scoring
+##### Dans le cadre de la formation Data Scientist : Parcours en partenariat avec CentraleSupélec
+
 
 #### Enoncé : 
 
